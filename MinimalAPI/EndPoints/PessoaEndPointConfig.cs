@@ -32,6 +32,8 @@ namespace MinimalAPI.EndPoints
 
                 dbContext.Pessoas.Remove(pessoa);
                 await dbContext.SaveChangesAsync();
+
+
                 return;
             });
         }
